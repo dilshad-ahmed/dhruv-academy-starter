@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .iconStyle {
+    @apply h-8 w-8 flex justify-center items-center rounded-full bg-white text-black text-xl;
+  }
+}
